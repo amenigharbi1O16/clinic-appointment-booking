@@ -1,0 +1,16 @@
+# Build
+target/
+
+# IDE
+.idea/
+*.iml
+
+# Bases de donnees locales
+*.db
+*.mv.db
+*.trace.db
+
+# Secrets
+.env
+*.env
+credentials*
