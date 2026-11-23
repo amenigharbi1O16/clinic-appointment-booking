@@ -1,16 +1,18 @@
-# Build
+# Maven build output
 target/
 
-# IDE
+# IntelliJ IDEA
 .idea/
 *.iml
 
-# Bases de donnees locales
+# Local database files
 *.db
 *.mv.db
-*.trace.db
 
-# Secrets
+# Environment files
 .env
-*.env
-credentials*
+.env.*
+
+# Credentials and secrets
+credentials
+credentials.*
