@@ -5,9 +5,20 @@ target/
 .idea/
 *.iml
 
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
 # Local database files
 *.db
 *.mv.db
+*.trace.db
 
 # Environment files
 .env
